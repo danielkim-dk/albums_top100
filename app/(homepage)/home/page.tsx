@@ -1,11 +1,7 @@
-import React from "react";
-
-import ListOfCards from "../../components/ListOfCards";
+'use client';
+import React from 'react';
+import AlbumContainer from '../../components/AlbumContainer';
 
 export default function HomePage() {
-	return (
-		<>
-			<ListOfCards />
-		</>
-	);
+  return <AlbumContainer title="Top Albums" />;
 }
