@@ -26,7 +26,7 @@ const Searchbar: React.FC<SearchBarProps> = ({
       value={searchTerm}
       onChange={(e) => handleSearch(e.target.value)}
       placeholder={placeholder}
-      className="min-w-[350px] my-6 max-w-[500px] md:max-w-[600px] h-12"
+      className="min-w-[350px] my-6 max-w-[500px] md:max-w-[600px] h-12 border border-gray-300 rounded-xl"
     />
   );
 };
