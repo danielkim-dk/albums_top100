@@ -28,7 +28,6 @@ app/
 │   └── favorites/      # Favorites page showing saved albums
 ├── components/         # Reusable UI components
 ├── context/           # React Context providers
-├── hooks/            # Custom React hooks
 └── types/           # TypeScript type definitions
 ```
 
@@ -38,7 +37,7 @@ First, install the dependencies:
 
 ```bash
 npm install
-# or
+# orß
 yarn install
 ```
 
